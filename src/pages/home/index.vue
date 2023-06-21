@@ -75,7 +75,7 @@ const elements = reactive([
 
 const activeElementId = ref(-999)
 const activeElement = ref<any>(null)
-const styleList = ref([])
+const styleList = ref<any>([])
 
 watch(activeElementId, (val) => {
     activeElement.value = elements.find((item) => item.id === val)
