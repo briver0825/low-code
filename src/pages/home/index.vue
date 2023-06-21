@@ -183,6 +183,7 @@ watch(activeElementId, (val) => {
                                         :label="item.name"
                                         v-for="item in styleList"
                                         :key="item.key"
+                                        v-if="activeElement?.style"
                                     >
                                         <n-input
                                             v-model:value="
