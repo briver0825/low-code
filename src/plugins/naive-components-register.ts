@@ -2,6 +2,7 @@ import { App } from 'vue'
 
 import {
     NButton,
+    NColorPicker,
     NForm,
     NFormItem,
     NInput,
@@ -11,6 +12,7 @@ import {
     NLayoutSider,
     NMenu,
     NMessageProvider,
+    NSelect,
     NSpace,
     NTabPane,
     NTabs,
@@ -32,6 +34,8 @@ const components = [
     NInput,
     NForm,
     NFormItem,
+    NSelect,
+    NColorPicker,
 ]
 
 export const naiveComponentsRegister = (app: App) => {
